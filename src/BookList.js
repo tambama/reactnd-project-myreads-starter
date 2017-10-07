@@ -28,7 +28,7 @@ class BookList extends React.Component {
                       onChange={event =>
                         onChangeShelf(book, event.target.value)}
                     >
-                      <option value="none" disabled>
+                      <option value="none">
                         Move to...
                       </option>
                       <option value="currentlyReading">
